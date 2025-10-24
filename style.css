@@ -1,0 +1,113 @@
+/* 
+ css/styles.css 
+ Student Name: nada nour
+ Student Id: 1250561
+*/
+
+:root {
+    --bg: #faf7f2;
+    --text: hwb(0 12% 88%);
+    --muted: #6b6b6b;
+    --brand: #216869;
+    --brand-2: #49a078;
+    --card: #ffffff;
+    --border: #e9e3db;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Rubik", sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.6;
+}
+a{
+ color:  var(--brand);
+ text-decoration: none;
+}
+.n{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 50px;
+     height: 80px;
+}
+.n div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.n .left a {
+font-size: 20px;
+  font-weight: 100;
+}
+.n .right a{
+    margin: 0 10px;
+}
+.hero{
+   position: relative;
+  height: 100vh;
+  background: url('bg.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+}
+ /* .over{
+   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+
+}  */
+.content {
+  position: relative;
+  max-width: 800px;
+  padding: 20px;
+  z-index: 2;
+}
+
+.tag {
+  display: inline-block;
+background-color: var(--brand-2);
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-size: 20px;
+  
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: var(--bg);
+}
+
+.desc {
+  font-size: 18px;
+  
+  margin-bottom: 25px;
+  color:var(--bg);
+}
+
+
+.btn {
+  display: inline-block;
+  background-color:var(--brand);
+  color: var(--bg);
+  padding: 12px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: #239e63;
+}
